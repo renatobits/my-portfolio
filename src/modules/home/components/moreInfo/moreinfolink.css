@@ -1,0 +1,13 @@
+.more-info {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-color);
+    transition: .2s ease-in-out;
+    
+}
+.more-info:hover {
+    color: var(--title-color);
+}

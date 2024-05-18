@@ -1,0 +1,22 @@
+.profile {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
+.profile-img {
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-names h2 {
+    font-size: 14px;
+    color: var(--title-color);
+    font-weight: 500;
+}
+.profile-names p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #595C62;
+}
