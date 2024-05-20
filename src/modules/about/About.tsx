@@ -3,13 +3,14 @@ import Codevs from '../../assets/codevvs.webp'
 import ContactCard from './components/contactCard/ContactCard'
 import SocialCard from './components/socialCard/SocialCard'
 import Home from '../../assets/home.svg'
+import Container from '../global/components/container/Container'
+import ButtonPrimaryExternal from '../global/components/buttonPrimaryExternal/ButtonPrimaryExternal'
 
 
 export default function About() {
     return (
-        <div className="about">
+        <Container title='About'>
             <section className='about-intro'>
-                <h1>About</h1>
                 <div className="about-header">
                     <div className="about-info">
                         <div className="about-image">
@@ -19,17 +20,10 @@ export default function About() {
                                 <p>Ing. Software IA</p>
                             </div>
                         </div>
-                        <a href="">
-                            Enviar Mensaje
-                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.93652 4.75C4.93652 5.1625 5.27402 5.5 5.68652 5.5H11.379L4.71902 12.16C4.64958 12.2294 4.5945 12.3119 4.55692 12.4026C4.51934 12.4933 4.5 12.5906 4.5 12.6887C4.5 12.7869 4.51934 12.8842 4.55692 12.9749C4.5945 13.0656 4.64958 13.1481 4.71902 13.2175C4.78845 13.2869 4.87089 13.342 4.96161 13.3796C5.05233 13.4172 5.14957 13.4365 5.24777 13.4365C5.34596 13.4365 5.4432 13.4172 5.53392 13.3796C5.62465 13.342 5.70708 13.2869 5.77652 13.2175L12.4365 6.5575V12.25C12.4365 12.6625 12.774 13 13.1865 13C13.599 13 13.9365 12.6625 13.9365 12.25V4.75C13.9365 4.3375 13.599 4 13.1865 4H5.68652C5.27402 4 4.93652 4.3375 4.93652 4.75Z" fill="#F0F1F4" />
-                            </svg>
-
-                        </a>
+                        <ButtonPrimaryExternal href='https://wa.me/51 958711207' text='Enviar Mensaje' />
                     </div>
                     <p>En esta parte se  muestran algunos trabajos en general desde diseño simples hasta proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto.</p>
                     <p>En esta parte se  muestran algunos trabajos en general desde diseño simples hasta proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto. proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto.</p>
-                    <p>En esta parte se  muestran algunos trabajos en general desde diseño simples hasta proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto.</p>
                 </div>
             </section>
             <section className='about-contact'>
@@ -84,6 +78,6 @@ export default function About() {
                     </SocialCard>
                 </div>
             </section>
-        </div>
+        </Container>
     )
 }

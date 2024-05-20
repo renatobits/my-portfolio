@@ -4,6 +4,7 @@ import IconCss from '../../icons/icons-skill/IconCss';
 import { skillData, skillDataDesign, skillDataTools } from './skillData';
 import { skillDataRight } from './skillData';
 import SkillCard from './components/skillCard/SkillCard';
+import Container from '../global/components/container/Container';
 
 export default function Skill() {
 
@@ -19,12 +20,24 @@ export default function Skill() {
         );
     };
 
+    const [activeArrowD, setActiveArrowsD] = useState<boolean[]>(Array(skillDataDesign.length).fill(false));
+    const toggleCardD = (index: number) => {
+        setActiveArrowsD((prevState) =>
+            prevState.map((isActive, i) => (i === index ? !isActive : isActive))
+        );
+    };
+    
+    const [activeArrowT, setActiveArrowsT] = useState<boolean[]>(Array(skillDataTools.length).fill(false));
+    const toggleCardT = (index: number) => {
+        setActiveArrowsT((prevState) =>
+            prevState.map((isActive, i) => (i === index ? !isActive : isActive))
+        );
+    };
+
     return (
-        <div className="skill">
-            <section className="skill-intro">
-                <h2>Skills</h2>
-                <p>Los proyectos estan separados en proyectos full-stack, frontend. backend</p>
-            </section>
+        <Container
+            title='Skills'
+            desctiption='Estas son las tecnologias que domino y uso para mi Stack de Trabajo.'>
             <section className='skill-container'>
                 <h2>Tecnologias</h2>
                 <div className="skills">
@@ -38,8 +51,8 @@ export default function Skill() {
                                     title={skill.title}
                                     subtitle={skill.subtitle}
                                     description={skill.description}
-                                    isActive={activeArrow[index]}
-                                    toggleCard={toggleCard}
+                                    isActive={activeArrowT[index]}
+                                    toggleCard={toggleCardT}
                                 />
                             ))
                         }
@@ -75,8 +88,8 @@ export default function Skill() {
                                     title={skill.title}
                                     subtitle={skill.subtitle}
                                     description={skill.description}
-                                    isActive={activeArrow[index]}
-                                    toggleCard={toggleCard}
+                                    isActive={activeArrowD[index]}
+                                    toggleCard={toggleCardD}
                                 />
                             ))
                         }
@@ -86,24 +99,24 @@ export default function Skill() {
             <section className='skill-container'>
                 <h2>Herramientas esenciales</h2>
                 <div className="skills">
-                    <div className="skill-left">
-                        {
-                            skillDataTools.map((skill, index) => (
-                                <SkillCard
-                                    key={skill.id}
-                                    index={index}
-                                    icon={skill.icon()}
-                                    title={skill.title}
-                                    subtitle={skill.subtitle}
-                                    description={skill.description}
-                                    isActive={activeArrow[index]}
-                                    toggleCard={toggleCard}
-                                />
-                            ))
-                        }
-                    </div>
+                    {/* <div className="skill-left"> */}
+                    {
+                        skillDataTools.map((skill, index) => (
+                            <SkillCard
+                                key={skill.id}
+                                index={index}
+                                icon={skill.icon()}
+                                title={skill.title}
+                                subtitle={skill.subtitle}
+                                description={skill.description}
+                                isActive={activeArrow[index]}
+                                toggleCard={toggleCard}
+                            />
+                        ))
+                    }
+                    {/* </div> */}
                 </div>
             </section>
-        </div>
+        </Container>
     )
 }

@@ -6,20 +6,22 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 32px;
-    transition: all .25s ease-in-out;
     max-height: 299px;
     height: 82px;
     overflow: hidden;
+    transition: all .25s ease-in-out;
 }
 
 .card.active {
     overflow: hidden;
     transition: all .2s ease-in-out;
-    height: 299px;
+    height: 299px; 
 }
 
 .card-header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,10 +34,10 @@
     transition: .2 ease-in-out;
 }
 
-.card h3 {
+.card-icon h3 {
     color: var(--title-color);
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 h3,
@@ -68,7 +70,7 @@ a {
 
 .card h4 {
     color: var(--title-color);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 .card a {
