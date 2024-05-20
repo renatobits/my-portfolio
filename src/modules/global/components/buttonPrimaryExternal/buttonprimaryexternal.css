@@ -1,0 +1,14 @@
+.button-external {
+    background: var(--primary-color);
+    color: var(--title-color);
+    padding: 12px 32px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .2s ease-in-out;
+}
+
+.button-external:hover {
+    background: #0161d7;
+}

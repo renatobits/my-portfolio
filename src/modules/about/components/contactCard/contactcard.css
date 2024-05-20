@@ -1,0 +1,32 @@
+article {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon {
+    background: #1D1F22;
+    padding: 10px;
+    border: 1px solid #2C2D34;
+    border-radius: 15px;
+    display: flex;
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.date a {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .2s ease-in-out;
+}
+.date a:hover {
+    color: var(--primary-color);
+}
+.date span {
+    font-size: 14px;
+}

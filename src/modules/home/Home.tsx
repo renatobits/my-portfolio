@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom'
 import './home.css'
-import MoreInfoLink from './components/moreInfo/MoreInfoLink'
 
 import Work from '../../assets/work.png'
+import IconCss from '../../icons/icons-skill/IconCss'
+import IconHtml from '../../icons/icons-skill/IconHtml'
+import IconFigma from '../../icons/icons-skill/IconFigma'
+import IconReact from '../../icons/icons-skill/IconReact'
+import IconLaravel from '../../icons/icons-skill/IconLaravel'
+import IconWordpress from '../../icons/icons-skill/IconWordpress'
+import ButtonPrimaryExternal from '../global/components/buttonPrimaryExternal/ButtonPrimaryExternal'
+import ButtonSecondary from '../global/components/secondaryButton/ButtonSecondary'
+import ButtonMoreInfo from '../global/components/buttonMoreInfo/ButtonMoreInfo'
 
 
 
@@ -16,27 +24,14 @@ export default function Home() {
                     <p>John is an experienced UX designer based in the US known for creating intuitive and engaging user experiences.</p>
                 </div>
                 <div className="home-buttons">
-                    <a href="">
-                        Contactar
-                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.93652 5.25C4.93652 5.6625 5.27402 6 5.68652 6H11.379L4.71902 12.66C4.64958 12.7294 4.5945 12.8119 4.55692 12.9026C4.51934 12.9933 4.5 13.0906 4.5 13.1887C4.5 13.2869 4.51934 13.3842 4.55692 13.4749C4.5945 13.5656 4.64958 13.6481 4.71902 13.7175C4.78845 13.7869 4.87089 13.842 4.96161 13.8796C5.05233 13.9172 5.14957 13.9365 5.24777 13.9365C5.34596 13.9365 5.4432 13.9172 5.53392 13.8796C5.62465 13.842 5.70708 13.7869 5.77652 13.7175L12.4365 7.0575V12.75C12.4365 13.1625 12.774 13.5 13.1865 13.5C13.599 13.5 13.9365 13.1625 13.9365 12.75V5.25C13.9365 4.8375 13.599 4.5 13.1865 4.5H5.68652C5.27402 4.5 4.93652 4.8375 4.93652 5.25Z" fill="currentColor" />
-                        </svg>
-
-                    </a>
-                    <Link to="/proyects">
-                        Ver Proyectos
-                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5.77657 16.2981C6.14407 16.6656 6.73657 16.6656 7.10407 16.2981L13.3366 10.0656C13.4061 9.99624 13.4613 9.91382 13.4989 9.82309C13.5365 9.73236 13.5559 9.6351 13.5559 9.53687C13.5559 9.43865 13.5365 9.34139 13.4989 9.25066C13.4613 9.15993 13.4061 9.07751 13.3366 9.00812L7.10407 2.77562C6.73657 2.40812 6.14407 2.40812 5.77657 2.77562C5.40907 3.14312 5.40907 3.73563 5.77657 4.10313L11.2066 9.54062L5.76907 14.9781C5.40907 15.3381 5.40907 15.9381 5.77657 16.2981Z" fill="#F0F1F4" />
-                        </svg>
-                    </Link>
+                    <ButtonPrimaryExternal href='#' text='Contactar' />
+                    <ButtonSecondary to='/proyects' text='Ver Proyectos' />
                 </div>
             </section>
             <section className='resume'>
                 <div className="resume-header">
                     <h2>Resumen</h2>
-                    <MoreInfoLink to='/about'>
-                        Ver más
-                    </MoreInfoLink>
+                    <ButtonMoreInfo to='/about' text='Ver más' />
                 </div>
                 <div className="resume-cv">
                     <div className="title-cv">
@@ -61,9 +56,7 @@ export default function Home() {
             <section className='work'>
                 <div className="works-header">
                     <h2>Últimos Proyectos</h2>
-                    <MoreInfoLink to='/proyects'>
-                        Ver más
-                    </MoreInfoLink>
+                    <ButtonMoreInfo to='/proyects' text='Ver más' />
                 </div>
                 <div className="work-container">
                     <div className="last-card">
@@ -93,16 +86,12 @@ export default function Home() {
             <section className='skill'>
                 <div className="skill-header">
                     <h2>Tecnologias</h2>
-                    <MoreInfoLink to='/skill'>
-                        Ver más
-                    </MoreInfoLink>
+                    <ButtonMoreInfo to='/skill' text='Ver más' />
                 </div>
                 <div className="skill-container">
                     <div className="skill-card-home">
                         <div className="skill-card-icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.5 3.66669L8.393 36.344L22 40.3334L35.6895 36.3459L38.5 3.66669H5.5ZM31.2565 14.7547H16.6375L16.9528 18.4507H31.064L29.9163 30.4865L22.132 33.0184L14.2835 30.3509L13.7555 24.9755H17.4662L17.7595 27.5624L22.1595 29.0565L26.4605 27.6577L27.005 22.1485H13.596L12.5657 11.0569H31.6543L31.2565 14.7547Z" fill="#FF541E" />
-                            </svg>
+                            <IconHtml />
                         </div>
                         <div className="skill-card-name">
                             <h3>HTML</h3>
@@ -111,46 +100,79 @@ export default function Home() {
                     </div>
                     <div className="skill-card-home">
                         <div className="skill-card-icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.5 3.66669L8.393 36.344L22 40.3334L35.6895 36.3459L38.5 3.66669H5.5ZM31.2565 14.7547H16.6375L16.9528 18.4507H31.064L29.9163 30.4865L22.132 33.0184L14.2835 30.3509L13.7555 24.9755H17.4662L17.7595 27.5624L22.1595 29.0565L26.4605 27.6577L27.005 22.1485H13.596L12.5657 11.0569H31.6543L31.2565 14.7547Z" fill="#FF541E" />
-                            </svg>
+                            <IconCss />
                         </div>
                         <div className="skill-card-name">
-                            <h3>HTML</h3>
+                            <h3>CSS</h3>
                             <p>Para la maquetación de todas las interfaces.</p>
                         </div>
                     </div>
                     <div className="skill-card-home">
                         <div className="skill-card-icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.5 3.66669L8.393 36.344L22 40.3334L35.6895 36.3459L38.5 3.66669H5.5ZM31.2565 14.7547H16.6375L16.9528 18.4507H31.064L29.9163 30.4865L22.132 33.0184L14.2835 30.3509L13.7555 24.9755H17.4662L17.7595 27.5624L22.1595 29.0565L26.4605 27.6577L27.005 22.1485H13.596L12.5657 11.0569H31.6543L31.2565 14.7547Z" fill="#FF541E" />
-                            </svg>
+                            <IconFigma />
                         </div>
                         <div className="skill-card-name">
-                            <h3>HTML</h3>
+                            <h3>Figma</h3>
                             <p>Para la maquetación de todas las interfaces.</p>
                         </div>
                     </div>
                     <div className="skill-card-home">
                         <div className="skill-card-icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.5 3.66669L8.393 36.344L22 40.3334L35.6895 36.3459L38.5 3.66669H5.5ZM31.2565 14.7547H16.6375L16.9528 18.4507H31.064L29.9163 30.4865L22.132 33.0184L14.2835 30.3509L13.7555 24.9755H17.4662L17.7595 27.5624L22.1595 29.0565L26.4605 27.6577L27.005 22.1485H13.596L12.5657 11.0569H31.6543L31.2565 14.7547Z" fill="#FF541E" />
-                            </svg>
+                            <IconReact />
                         </div>
                         <div className="skill-card-name">
-                            <h3>HTML</h3>
+                            <h3>React</h3>
+                            <p>Para la maquetación de todas las interfaces.</p>
+                        </div>
+                    </div>
+                    <div className="skill-card-home">
+                        <div className="skill-card-icon">
+                            <IconLaravel />
+                        </div>
+                        <div className="skill-card-name">
+                            <h3>Laravel</h3>
+                            <p>Para la maquetación de todas las interfaces.</p>
+                        </div>
+                    </div>
+                    <div className="skill-card-home">
+                        <div className="skill-card-icon">
+                            <IconWordpress />
+                        </div>
+                        <div className="skill-card-name">
+                            <h3>WordPress</h3>
                             <p>Para la maquetación de todas las interfaces.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
+            <section className='education'>
                 <div className="education-header">
                     <h2>Educación</h2>
-                    <a href="">Ver más</a>
+                    <ButtonMoreInfo to='/about' text='Ver más' />
                 </div>
                 <div className="education-container">
+                    <div className="education-card">
+                        <div className="education-card-logo">
+                            <svg width="50" height="50" viewBox="0 0 100.000000 101.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,101.000000) scale(0.100000,-0.100000)" fill="#243CDE" stroke="none"><path d="M287 902 c-21 -3 -32 -13 -49 -45 -26 -53 -135 -244 -158 -277 -9 -14 -22 -39 -29 -57 -12 -30 -10 -36 39 -117 l52 -86 245 2 246 3 29 52 29 51 -31 56 -32 56 -97 0 c-97 0 -125 9 -114 36 4 11 32 14 122 14 131 0 113 10 177 -102 l33 -58 -46 -80 -45 -80 -239 0 c-188 0 -239 -3 -239 -13 0 -7 21 -47 46 -90 l46 -77 231 2 231 3 113 195 c61 107 112 202 112 210 1 9 -10 32 -24 52 -14 20 -25 40 -25 43 0 3 -12 23 -26 45 l-27 40 -242 0 -243 0 -31 -55 -31 -55 31 -55 31 -54 101 -3 c97 -3 102 -4 105 -25 3 -23 2 -23 -115 -23 l-119 0 -32 53 c-18 29 -32 57 -32 62 0 4 -7 16 -15 24 -12 15 -9 26 32 99 l47 82 238 0 c184 0 238 3 238 13 -1 6 -14 35 -30 62 -16 28 -35 60 -41 73 -7 12 -17 22 -23 22 -94 3 -418 4 -439 2z" /></g></svg>
+                        </div>
+                        <div className="education-card-info">
+                            <h3>Senati</h3>
+                            <p>Ingenieria de Software con IA</p>
+                            <span>Enero 2024, Arequipa - Peru</span>
+                        </div>
+                    </div>
                     <hr />
+                    <div className="education-card">
+                        <div className="education-card-logo">
+                            <svg width="50" height="50" viewBox="0 0 100.000000 101.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,101.000000) scale(0.100000,-0.100000)" fill="#243CDE" stroke="none"><path d="M287 902 c-21 -3 -32 -13 -49 -45 -26 -53 -135 -244 -158 -277 -9 -14 -22 -39 -29 -57 -12 -30 -10 -36 39 -117 l52 -86 245 2 246 3 29 52 29 51 -31 56 -32 56 -97 0 c-97 0 -125 9 -114 36 4 11 32 14 122 14 131 0 113 10 177 -102 l33 -58 -46 -80 -45 -80 -239 0 c-188 0 -239 -3 -239 -13 0 -7 21 -47 46 -90 l46 -77 231 2 231 3 113 195 c61 107 112 202 112 210 1 9 -10 32 -24 52 -14 20 -25 40 -25 43 0 3 -12 23 -26 45 l-27 40 -242 0 -243 0 -31 -55 -31 -55 31 -55 31 -54 101 -3 c97 -3 102 -4 105 -25 3 -23 2 -23 -115 -23 l-119 0 -32 53 c-18 29 -32 57 -32 62 0 4 -7 16 -15 24 -12 15 -9 26 32 99 l47 82 238 0 c184 0 238 3 238 13 -1 6 -14 35 -30 62 -16 28 -35 60 -41 73 -7 12 -17 22 -23 22 -94 3 -418 4 -439 2z" /></g></svg>
+                        </div>
+                        <div className="education-card-info">
+                            <h3>Senati</h3>
+                            <p>Ingenieria de Software con IA</p>
+                            <span>Enero 2024, Arequipa - Peru</span>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </div>

@@ -1,4 +1,4 @@
-.more-info {
+.button-more-info {
     font-size: 14px;
     font-weight: 600;
     display: flex;
@@ -6,8 +6,8 @@
     gap: 8px;
     color: var(--text-color);
     transition: .2s ease-in-out;
-    
+    animation: FadeIn 2.5s ease-in-out infinite;
 }
-.more-info:hover {
+.button-more-info:hover {
     color: var(--title-color);
 }

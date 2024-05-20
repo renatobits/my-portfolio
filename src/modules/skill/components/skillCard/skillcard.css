@@ -1,0 +1,78 @@
+.card {
+    background: #1D1F22;
+    max-width: 501px;
+    padding: 16px 32px;
+    border: 1px solid #2C2D34;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    transition: all .25s ease-in-out;
+    max-height: 299px;
+    height: 82px;
+    overflow: hidden;
+}
+
+.card.active {
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    height: 299px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .2 ease-in-out;
+}
+
+.card h3 {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3,
+p,
+a {
+    transition: .2s ease-in-out;
+}
+
+
+.button {
+    background: none;
+    border: none;
+    display: flex;
+    color: var(--title-color);
+}
+
+.button:hover {
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.button svg {
+    transition: .3s ease-in-out;
+}
+
+.button.active svg {
+    transform: rotate(180deg);
+    transition: .3s ease-in-out;
+}
+
+.card h4 {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+.card a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary-color);
+}

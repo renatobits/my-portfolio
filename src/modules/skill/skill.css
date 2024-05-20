@@ -1,0 +1,104 @@
+.skill {
+    max-width: 1034px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.skill-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skill-intro h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.skill-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.skill-left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.skill-right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.skill-card {
+    background: #1D1F22;
+    max-width: 501px;
+    padding: 16px 32px;
+    border: 1px solid #2C2D34;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    transition: all .25s ease-in-out;
+    max-height: 299px;
+    overflow: hidden;
+}
+.skill-card.active {
+    max-height: 82px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    height: 299px;
+}
+.skill-card h3, p, a {
+    transition: .2s ease-in-out;
+}
+.skill-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-card-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: .2 ease-in-out;
+}
+
+.skill-card-info .skill-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+.skill-button {
+    color: var(--title-color);
+    transition: .2s ease-in-out;
+}
+.skill-button:hover {
+    color: var(--text-color);
+    cursor: pointer;
+}
+.skill-button svg {
+    transition: .2s ease-in-out;
+}
+.skill-button.active svg {
+    transform: rotate(180deg);
+    transition: .2s ease-in-out;
+}

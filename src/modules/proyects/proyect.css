@@ -1,0 +1,69 @@
+.proyect {
+    max-width: 1034px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.proyect-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.proyect-intro h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.proyect-navigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.proyect-navigation a {
+    font-size: 18px;
+    color: var(--title-color);
+}
+.proyect-navigation a:hover {
+    color: var(--primary-color);
+}
+.proyect-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.proyect-card {
+    background: #1D1F22;
+    max-width: 501px;
+    padding: 36px 38px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.proyect-card img {
+    max-width: 425px;
+    width: 100%;
+    max-height: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.proyect-card h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.proyect-card h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.proyect-card ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.proyect-card ul li {
+    background: #391F52;
+    padding: 5px 10px;
+    border-radius: 6px;
+    
+}

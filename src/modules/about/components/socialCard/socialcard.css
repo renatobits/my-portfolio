@@ -1,0 +1,14 @@
+.social-link {
+    background: #1D1F22;
+    padding: 10px 16px;
+    border: 1px solid #2C2D34;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: var(--title-color);
+}
+.social-link:hover {
+    color: var(--primary-color);
+}
