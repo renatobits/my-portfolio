@@ -1,6 +1,8 @@
 import './proyect.css'
-import ProyectImage from '../../assets/work.png'
 import Container from '../global/components/container/Container'
+import ProyectCard from './components/proyectCard/ProyectCard'
+import Badge from './components/badge/Badge'
+import { DataProyect } from './DataProyect'
 
 
 export default function Proyect() {
@@ -15,34 +17,26 @@ export default function Proyect() {
                 <a href="">Proyectos Diseño</a>
             </div>
             <div className="proyect-container">
-                <div className="proyect-card">
-                    <img src={ProyectImage} alt="" />
-                    <h2>Aplicación web para Agencia</h2>
-                    <p>Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos </p>
-                    <h3>Tecnologias usadas</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                    </ul>
-                    <h3>Ver Proyecto</h3>
-                    <a href="">https://renatodevs.vercel.app</a>
-                </div>
-                <div className="proyect-card">
-                    <img src={ProyectImage} alt="" />
-                    <h2>Aplicación web para Agencia</h2>
-                    <p>Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos </p>
-                    <h3>Tecnologias usadas</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                    </ul>
-                    <h3>Ver Proyecto</h3>
-                    <a href="">https://renatodevs.vercel.app</a>
-                </div>
+                {
+                    DataProyect.map((proyect) => (
+                        <ProyectCard
+                            key={proyect.id}
+                            src={proyect.img}
+                            title={proyect.title}
+                            description={proyect.description}
+                            subtitle={proyect.subtitle}
+                            subtitlelink={proyect.link}
+                            link={proyect.link}>
+                            {
+                                proyect.label.map((labels, index) => (
+                                    <Badge
+                                        key={index}
+                                        title={labels} />
+                                ))
+                            }
+                        </ProyectCard>
+                    ))
+                }
             </div>
         </Container>
     )
