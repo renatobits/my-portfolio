@@ -1,4 +1,4 @@
-.container {
+.layout {
     display: grid;
     grid-template-columns: minmax( auto, 256px)  1fr;
 }

@@ -4,3 +4,14 @@
     flex-direction: column;
     gap: 80px;
 }
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.container-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--title-color);
+}

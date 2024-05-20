@@ -1,14 +1,13 @@
 import './proyect.css'
 import ProyectImage from '../../assets/work.png'
+import Container from '../global/components/container/Container'
 
 
 export default function Proyect() {
     return (
-        <div className="proyect">
-            <div className="proyect-intro">
-                <h1>Proyectos</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni, ipsum dolorem reiciendis impedit quaerat! Sit sunt nostrum consequatur harum praesentium aut vero facilis, iusto consequuntur nulla nobis libero atque.</p>
-            </div>
+        <Container
+            title='Proyectos'
+            desctiption='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni, ipsum dolorem reiciendis impedit quaerat! Sit sunt nostrum consequatur harum praesentium aut vero facilis, iusto consequuntur nulla nobis libero atque.'>
             <div className="proyect-navigation">
                 <a href="">Todos</a>
                 <a href="">Proyectos Full-Stack</a>
@@ -45,6 +44,6 @@ export default function Proyect() {
                     <a href="">https://renatodevs.vercel.app</a>
                 </div>
             </div>
-        </div>
+        </Container>
     )
 }

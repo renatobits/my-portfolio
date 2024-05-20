@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    max-width: 558px;
+    max-width: 832px;
 }
 
 .home-header {
@@ -64,29 +64,6 @@ h2 {
     background: #202227;
 }
 
-.resume {
-    max-width: 832px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.resume-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.resume-header h2 {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.resume-cv {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .title-cv {
     display: flex;
@@ -118,114 +95,6 @@ h2 {
 }
 
 
-.work {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.works-header {
-    max-width: 832px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.works-header h2 {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-
-.work-container {
-    width: 100%;
-    max-width: 832px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
-.last-card {
-    background: #1D1F22;
-    border-radius: 20px;
-    padding: 16px;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.last-card img {
-    max-width: 100%;
-    border-radius: 20px;
-}
-
-.last-card h3 {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.external-work {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-
-.skill {
-    max-width: 832px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.skill-header {
-    display: flex;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.skill-header h2 {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.skill-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 32px;
-}
-
-.skill-card-home {
-    background: #1D1F22;
-    max-width: 370px;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    border-radius: 20px;
-    border: 1px solid #2C2D34;
-}
-
-.skill-card-icon {
-    border-radius: 15px;
-    padding: 10px;
-    border: 1px solid #2C2D34;
-    display: flex;
-}
-
-.skill-card-name {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.skill-card-name h3 {
-    font-size: 16px;
-    font-weight: 600;
-}
 
 
 

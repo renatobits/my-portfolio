@@ -1,0 +1,10 @@
+.external-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #bf71ff;
+    transition: .2s ease-in-out;
+}
+.external-link:hover {
+    color: var(--title-color);
+}

@@ -1,0 +1,24 @@
+.home-resume {
+    max-width: 832px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.resume-cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

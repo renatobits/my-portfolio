@@ -4,7 +4,7 @@ import Aside from "../modules/aside/Aside";
 
 export default function Layout() {
     return (
-        <div className="container">
+        <div className="layout">
             <Aside />
             <main className="principal">
                 <Outlet />

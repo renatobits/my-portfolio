@@ -1,0 +1,46 @@
+.home-proyect {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.works-header {
+    max-width: 832px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.work-container {
+    width: 100%;
+    max-width: 832px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.last-card {
+    background: #1D1F22;
+    border-radius: 20px;
+    padding: 16px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.last-card img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.last-card h3 {
+    font-size: 18px;
+    font-weight: 500;
+}

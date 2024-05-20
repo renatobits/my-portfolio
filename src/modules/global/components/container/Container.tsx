@@ -10,8 +10,10 @@ interface ContactarProps {
 export default function Container({ title, desctiption, children }: ContactarProps) {
     return (
         <div className="container">
-            <h1>{title}</h1>
-            <p>{desctiption}</p>
+            <div className="container-header">
+                <h1>{title}</h1>
+                <p>{desctiption}</p>
+            </div>
             {children}
         </div>
     )
