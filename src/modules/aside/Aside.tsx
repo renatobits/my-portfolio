@@ -14,14 +14,15 @@ import IconTiktok from '../../icons/icons-nav/IconTiktok';
 import IconGithub from '../../icons/icons-nav/IconGithub';
 import { useState } from 'react';
 import IoconMenu from '../../icons/IconMenu';
+import IconClose from '../../icons/IconClose';
 
 export default function Aside() {
     const [collapse, setCollapse] = useState(false);
     const [menuActive, setMenuActive] = useState(false);
     return (
-        <aside className={collapse ? 'collapse' : ''}>
+        <aside className={collapse ? 'active' : ''}>
             <ProfileInfo />
-            <div className="nav-container">
+            <div className={menuActive ? 'nav-container active' : 'nav-container'} onClick={() => setMenuActive(!menuActive)}>
                 <nav>
                     <ul>
                         <li>
@@ -99,9 +100,9 @@ export default function Aside() {
                 </nav>
                 <a href="/" className='external'>Comprar Diseño</a>
             </div>
-            <span>Renato Dev © 2024 | Todos los derechos reserevados</span>
-            <button>
-                <IoconMenu />
+            <span className='copy'>Renato Dev © 2024 | Todos los derechos reserevados</span>
+            <button onClick={() => setMenuActive(!menuActive)}>
+                {menuActive ? <IconClose /> : <IoconMenu />}
             </button>
         </aside>
     )

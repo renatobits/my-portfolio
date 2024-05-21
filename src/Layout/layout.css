@@ -28,7 +28,6 @@ footer a {
     .principal {
         width: 100%;
         min-width: auto;
-        overflow-x: hidden;
         padding: 0 16px;
     }
 }
