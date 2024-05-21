@@ -36,35 +36,6 @@ h2 {
     gap: 32px;
 }
 
-/* .home-buttons a {
-    padding: 12px 32px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    gap: 8px;
-    color: var(--title-color);
-    transition: .2s ease-in-out;
-}
-
-.home-buttons a:first-child {
-    background: var(--primary-color);
-}
-
-.home-buttons a:first-child:hover {
-    background: #0161d7;
-}
-
-.home-buttons a:nth-child(2) {
-    background: #272A2F;
-}
-
-.home-buttons a:nth-child(2):hover {
-    background: #202227;
-} */
-
-
 .title-cv {
     display: flex;
     align-items: center;
