@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import ImageP from '../../assets/work.png'
 
 

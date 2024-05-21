@@ -1,4 +1,3 @@
-import ButtonMoreInfo from '../../../global/components/buttonMoreInfo/ButtonMoreInfo'
 import './homeresume.css'
 
 

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './skill.css'
-import IconCss from '../../icons/icons-skill/IconCss';
 import { skillData, skillDataDesign, skillDataTools } from './skillData';
 import { skillDataRight } from './skillData';
 import SkillCard from './components/skillCard/SkillCard';

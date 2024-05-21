@@ -1,6 +1,5 @@
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 import './skillcard.css'
-import { skillData, skillDataRight } from "../../skillData";
 import { Link } from "react-router-dom";
 
 interface SkillCardProps {

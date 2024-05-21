@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import IconHtml from "../../icons/icons-skill/IconHtml";
 import IconJavascript from "../../icons/icons-skill/IconJavascript"; 
 import IconReact from "../../icons/icons-skill/IconReact";

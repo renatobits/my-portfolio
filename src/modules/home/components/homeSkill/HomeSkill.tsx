@@ -14,7 +14,7 @@ interface HomeSkillProps {
     title: string,
     description: string,
 }
-const DATA_SKILL = [
+const DATA_SKILL: HomeSkillProps[] = [
     {
         id: 1,
         icon: <IconHtml />,
@@ -63,7 +63,7 @@ export default function HomeSkill() {
                 {
                     DATA_SKILL.map((datas, index) => {
                         return (
-                            <div className="home-skill-card">
+                            <div className="home-skill-card" key={index}>
                                 <div className="skill-card-icon">
                                     {datas.icon}
                                 </div>

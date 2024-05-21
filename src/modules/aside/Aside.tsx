@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './aside.css';
 import ProfileInfo from './components/ProfileInfo';
 import IconHome from '../../icons/icons-nav/IconHome';
@@ -17,10 +17,9 @@ import IoconMenu from '../../icons/IconMenu';
 import IconClose from '../../icons/IconClose';
 
 export default function Aside() {
-    const [collapse, setCollapse] = useState(false);
     const [menuActive, setMenuActive] = useState(false);
     return (
-        <aside className={collapse ? 'active' : ''}>
+        <aside className="active">
             <ProfileInfo />
             <div className={menuActive ? 'nav-container active' : 'nav-container'} onClick={() => setMenuActive(!menuActive)}>
                 <nav>

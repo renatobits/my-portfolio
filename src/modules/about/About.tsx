@@ -2,7 +2,6 @@ import './about.css'
 import Codevs from '../../assets/codevvs.webp'
 import ContactCard from './components/contactCard/ContactCard'
 import SocialCard from './components/socialCard/SocialCard'
-import Home from '../../assets/home.svg'
 import Container from '../global/components/container/Container'
 import ButtonPrimaryExternal from '../global/components/buttonPrimaryExternal/ButtonPrimaryExternal'
 
