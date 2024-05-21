@@ -39,35 +39,35 @@ export const skillData: SkillDataProps[] = [
         icon: IconJavascript,
         title: 'Javascript',
         subtitle: 'Estilización y Diseño Visual',
-        description: 'Empleo CSS para darle estilo y formato a las páginas web, creando diseños atractivos y responsivos que mejoran la experiencia del usuario.',
+        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
     },
     {
         id: 3,
         icon: IconReact,
         title: 'React',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'React es mi herramienta principal para construir interfaces de usuario dinámicas y eficientes, aprovechando componentes reutilizables y la gestión de estados.',
     },
     {
         id: 4,
         icon: IconBootstrap,
         title: 'Bootstrap',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Bootstrap me permite crear diseños responsivos de forma rápida y eficiente, utilizando su amplia colección de componentes predefinidos y su sistema de grillas.',
     },
     {
         id: 5,
         icon: IconPhp,
         title: 'Php',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Uso PHP para desarrollar la lógica del servidor y gestionar la interacción con bases de datos, permitiendo crear aplicaciones web dinámicas y robustas.',
     },
     {
         id: 6,
         icon: IconWordpress,
         title: 'WordPress',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Utilizo WordPress para crear y gestionar proyectos de sitios web pequeños y dinámicos, aprovechando su flexibilidad, extensibilidad y su gran ecosistema de plugins.',
     },
 ];
 
@@ -85,35 +85,35 @@ export const skillDataRight: SkillDataProps[] = [
         icon: IconAstro,
         title: 'Astro',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Astro permite construir sitios web ultrarrápidos utilizando un enfoque de componentes, combinando lo mejor de las tecnologías modernas con un rendimiento óptimo.',
     },
     {
         id: 9,
         icon: IconNext,
         title: 'Next js',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Next.js es un framework de React que me permite crear aplicaciones web modernas con renderizado del lado del servidor y en el cliente.',
     },
     {
         id: 10,
         icon: IconTailwind,
         title: 'Tailwind CSS',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Tailwind CSS me ayuda a construir rápidamente diseños personalizados utilizando clases de utilidad, ofreciendo flexibilidad y un control detallado sobre el estilo.',
     },
     {
         id: 11,
         icon: IconLaravel,
         title: 'Laravel',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Laravel es mi framework preferido para desarrollar aplicaciones web en PHP, aprovechando su arquitectura MVC, herramientas de línea de comandos y soporte.',
     },
     {
         id: 12,
         icon: IconFlutter,
         title: 'Flutter',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Para ser un profesional completo en el campo de la tecnologia actualiemente estoy preparandome en dicha tecnología por su gran aceptación del público y beneficios que ofrece para el desarrollo móvil.',
     },
 ];
 
@@ -123,7 +123,7 @@ export const skillDataDesign = [
         icon: IconFigma,
         title: 'Figma',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Utilizo Figma para diseñar interfaces de usuario y crear prototipos interactivos, facilitando la colaboración y el feedback en el proceso de diseño.',
     }
 ];
 export const skillDataTools = [
@@ -132,13 +132,13 @@ export const skillDataTools = [
         icon: IconGit,
         title: 'Figma',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Utilizo Git para gestionar el control de versiones en mis proyectos, facilitando la colaboración con otros desarrolladores y asegurando un historial claro y organizado de cambios.',
     },
     {
         id: 16,
         icon: IconAzure,
         title: 'Figma',
         subtitle: 'Interactividad y Dinamismo',
-        description: 'Utilizo JavaScript para agregar interactividad y dinamismo a las páginas web, mejorando la experiencia del usuario con funcionalidades avanzadas.',
+        description: 'Conosco el entorno de Azure y algunos de sus productos para el despliegue de software, creación de maquinas virtuales, gestion de base de datos, despliegue de servicios API, etc.',
     },
 ];
