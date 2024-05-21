@@ -12,3 +12,8 @@
 .button-external:hover {
     background: #0161d7;
 }
+@media screen and (width < 760px) {
+    .button-external {
+        padding: 12px 16px;
+    }
+}

@@ -44,3 +44,8 @@
     font-size: 18px;
     font-weight: 500;
 }
+@media screen and (width < 760px) {
+    .work-container {
+        flex-direction: column;
+    }
+}

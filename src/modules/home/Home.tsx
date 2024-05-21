@@ -1,13 +1,4 @@
-import { Link } from 'react-router-dom'
 import './home.css'
-
-import Work from '../../assets/work.png'
-import IconCss from '../../icons/icons-skill/IconCss'
-import IconHtml from '../../icons/icons-skill/IconHtml'
-import IconFigma from '../../icons/icons-skill/IconFigma'
-import IconReact from '../../icons/icons-skill/IconReact'
-import IconLaravel from '../../icons/icons-skill/IconLaravel'
-import IconWordpress from '../../icons/icons-skill/IconWordpress'
 import ButtonPrimaryExternal from '../global/components/buttonPrimaryExternal/ButtonPrimaryExternal'
 import ButtonSecondary from '../global/components/secondaryButton/ButtonSecondary'
 import ButtonMoreInfo from '../global/components/buttonMoreInfo/ButtonMoreInfo'

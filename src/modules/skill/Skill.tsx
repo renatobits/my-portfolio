@@ -8,11 +8,6 @@ import Container from '../global/components/container/Container';
 
 export default function Skill() {
 
-    const [activeArrowR, setActiveArrowsR] = useState<boolean[]>(Array(skillDataRight.length).fill(false));
-    const toggleCardR = (index: number) => {
-        setActiveArrowsR((prevState) => prevState.map((isActive, i) => (i === index ? !isActive : isActive)));
-    };
-
     const [activeArrow, setActiveArrows] = useState<boolean[]>(Array(skillData.length).fill(false));
     const toggleCard = (index: number) => {
         setActiveArrows((prevState) =>
@@ -20,13 +15,19 @@ export default function Skill() {
         );
     };
 
+    const [activeArrowR, setActiveArrowsR] = useState<boolean[]>(Array(skillDataRight.length).fill(false));
+    const toggleCardR = (index: number) => {
+        setActiveArrowsR((prevState) => prevState.map((isActive, i) => (i === index ? !isActive : isActive)));
+    };
+
+
     const [activeArrowD, setActiveArrowsD] = useState<boolean[]>(Array(skillDataDesign.length).fill(false));
     const toggleCardD = (index: number) => {
         setActiveArrowsD((prevState) =>
             prevState.map((isActive, i) => (i === index ? !isActive : isActive))
         );
     };
-    
+
     const [activeArrowT, setActiveArrowsT] = useState<boolean[]>(Array(skillDataTools.length).fill(false));
     const toggleCardT = (index: number) => {
         setActiveArrowsT((prevState) =>
@@ -51,8 +52,8 @@ export default function Skill() {
                                     title={skill.title}
                                     subtitle={skill.subtitle}
                                     description={skill.description}
-                                    isActive={activeArrowT[index]}
-                                    toggleCard={toggleCardT}
+                                    isActive={activeArrow[index]}
+                                    toggleCard={toggleCard}
                                 />
                             ))
                         }
@@ -109,8 +110,8 @@ export default function Skill() {
                                 title={skill.title}
                                 subtitle={skill.subtitle}
                                 description={skill.description}
-                                isActive={activeArrow[index]}
-                                toggleCard={toggleCard}
+                                isActive={activeArrowT[index]}
+                                toggleCard={toggleCardT}
                             />
                         ))
                     }
