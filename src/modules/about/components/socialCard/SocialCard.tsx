@@ -4,10 +4,11 @@ import './socialcard.css'
 
 interface SocialCardProps {
     children: ReactNode;
+    href: string;
 }
-export default function SocialCard ({children}: SocialCardProps) {
+export default function SocialCard ({children, href}: SocialCardProps) {
     return (
-        <a href="" className='social-link'>
+        <a href={href} className='social-link'>
             {children}
         </a>
     )

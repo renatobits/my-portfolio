@@ -84,5 +84,11 @@ a {
     .card {
         padding: 16px 16px;
         gap: 24px;
+        max-height: max-content;
+    }
+    .card.active {
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+        height: 323px;
     }
 }

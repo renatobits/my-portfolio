@@ -37,7 +37,7 @@ export default function Skill() {
     return (
         <Container
             title='Skills'
-            desctiption='Estas son las tecnologias que domino y uso para mi Stack de Trabajo.'>
+            desctiption='Estas son las tecnologias que domino y las cuales uso como mi Stack para realizar mis Proyectos.'>
             <section className='skill-container'>
                 <h2>Tecnologias</h2>
                 <div className="skills">

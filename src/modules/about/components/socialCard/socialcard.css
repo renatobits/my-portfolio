@@ -9,6 +9,9 @@
     font-weight: 500;
     color: var(--title-color);
 }
+.social-link svg {
+    color: #0070F7;
+}
 .social-link:hover {
     color: var(--primary-color);
 }

@@ -1,6 +1,8 @@
 .button-external {
     background: var(--primary-color);
     color: var(--title-color);
+    font-size: 14px;
+    font-weight: 600;
     padding: 12px 32px;
     border-radius: 10px;
     display: flex;

@@ -1,6 +1,8 @@
 .button-secondary {
     background: #272A2F;
     color: var(--title-color);
+    font-size: 14px;
+    font-weight: 600;
     padding: 12px 32px;
     border-radius: 10px;
     display: flex;

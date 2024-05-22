@@ -41,7 +41,7 @@
     font-weight: 500;
 }
 
-.about-info a {
+/* .about-info a {
     background: var(--primary-color);
     padding: 12px 32px;
     border-radius: 10px;
@@ -51,7 +51,7 @@
     font-size: 14px;
     font-weight: 600;
     color: var(--title-color);
-}
+} */
 
 .about-contact {
     max-width: 790px;
