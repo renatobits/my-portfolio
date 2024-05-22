@@ -1,5 +1,7 @@
 import ImageP from '../../assets/work.png'
-
+import Univerzz from '../../assets/univerzz.webp'
+import VivoWeb from '../../assets/vivowebs.webp'
+import Horizone from '../../assets/horizone.webp'
 
 
 interface DataProyectProps {
@@ -15,35 +17,35 @@ interface DataProyectProps {
 export const DataProyect: DataProyectProps[] = [
     {
         id: 1,
-        img: ImageP,
+        img: Univerzz,
         title: 'Aplicación Web para Agencias',
         description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
         subtitle: 'Tecnologias usadas',
         label: ['HTML', 'CSS', 'Javascript', 'React'],
         subtitlelink: 'Ver Proyecto',
-        link: 'https://renatodevs.vercel.app',
+        link: 'https://univerzz.netlify.app',
 
     },
     {
         id: 1,
-        img: ImageP,
+        img: VivoWeb,
         title: 'Aplicación Web para Agencias',
         description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
         subtitle: 'Tecnologias usadas',
         label: ['HTML', 'CSS', 'Javascript', 'React'],
         subtitlelink: 'Ver Proyecto',
-        link: 'https://renatodevs.vercel.app',
+        link: 'https://vivoweb.vercel.app',
 
     },
     {
         id: 1,
-        img: ImageP,
+        img: Horizone,
         title: 'Aplicación Web para Agencias',
         description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
         subtitle: 'Tecnologias usadas',
         label: ['HTML', 'CSS', 'Javascript', 'React'],
         subtitlelink: 'Ver Proyecto',
-        link: 'https://renatodevs.vercel.app',
+        link: 'http://horizone.kesug.com/',
 
     },
     {

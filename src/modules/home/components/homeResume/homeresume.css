@@ -22,3 +22,20 @@
     justify-content: space-between;
     align-items: center;
 }
+.dowload-cv {
+    background: #791FC1;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 12px 32px;
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (width < 760px) {
+    .dowload-cv {
+        padding: 12px 16px;
+    }
+}

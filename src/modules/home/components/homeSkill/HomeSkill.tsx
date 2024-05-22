@@ -7,6 +7,7 @@ import IconReact from '../../../../icons/icons-skill/IconReact'
 import IconLaravel from '../../../../icons/icons-skill/IconLaravel'
 import IconWordpress from '../../../../icons/icons-skill/IconWordpress'
 import ButtonMoreInfo from '../../../global/components/buttonMoreInfo/ButtonMoreInfo'
+import IconJavascript from '../../../../icons/icons-skill/IconJavascript'
 
 interface HomeSkillProps {
     id: number,
@@ -25,28 +26,34 @@ const DATA_SKILL: HomeSkillProps[] = [
         id: 2,
         icon: <IconCss />,
         title: 'CSS',
-        description: 'Para la maquetación de todas las interfaces.',
+        description: 'Para dar vida y estilo a mis interfaces.',
     },
     {
         id: 3,
+        icon: <IconJavascript />,
+        title: 'Javascript',
+        description: 'Para la interactividad y animaciónes avanzadas.',
+    },
+    {
+        id: 4,
         icon: <IconFigma />,
         title: 'Figma',
         description: 'Para diseño de interfaces y prototipado.',
     },
     {
-        id: 4,
+        id: 5,
         icon: <IconReact />,
         title: 'React',
         description: 'Para construir interfaces modernas e interactivas.',
     },
     {
-        id: 5,
+        id: 6,
         icon: <IconLaravel />,
         title: 'Laravel',
         description: 'Para el desarrollo del backend  de mis proyectos.',
     },
     {
-        id: 6,
+        id: 7,
         icon: <IconWordpress />,
         title: 'WordPress',
         description: 'Para realizar proyectos pequeños menos personalizados.',

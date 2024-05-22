@@ -9,13 +9,13 @@ export default function Proyect() {
     return (
         <Container
             title='Proyectos'
-            desctiption='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni, ipsum dolorem reiciendis impedit quaerat! Sit sunt nostrum consequatur harum praesentium aut vero facilis, iusto consequuntur nulla nobis libero atque.'>
-            <div className="proyect-navigation">
+            desctiption='Mis proyectos desarrollados desde Maquetación de sitios estáticos hasta dinámicas con Backend.'>
+            {/* <div className="proyect-navigation">
                 <a href="">Todos</a>
                 <a href="">Proyectos Full-Stack</a>
                 <a href="">Proyectos Frontend</a>
                 <a href="">Proyectos Diseño</a>
-            </div>
+            </div> */}
             <div className="proyect-container">
                 {
                     DataProyect.map((proyect) => (
@@ -25,7 +25,7 @@ export default function Proyect() {
                             title={proyect.title}
                             description={proyect.description}
                             subtitle={proyect.subtitle}
-                            subtitlelink={proyect.link}
+                            subtitlelink={proyect.subtitlelink}
                             link={proyect.link}>
                             {
                                 proyect.label.map((labels, index) => (

@@ -6,7 +6,7 @@ export default function ProfileInfo () {
             <img src={Profile} alt="" className='profile-img' loading='lazy' />
             <div className="profile-names">
                 <h2>Renato Dev</h2>
-                <p>Web Developper</p>
+                <p>Desarrollador Web</p>
             </div>
         </div>
     )

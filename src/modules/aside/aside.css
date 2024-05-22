@@ -37,7 +37,7 @@ aside::-webkit-scrollbar {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 32px;
 }
 
@@ -115,7 +115,10 @@ a.active {
     text-align: center;
 
 }
-
+.copy {
+    font-size: 14px;
+    text-align: center;
+}
 button {
     background: #272A2F;
     border: none;
@@ -123,14 +126,16 @@ button {
     border-radius: 6px;
     display: flex;
     transition: .2s ease-in-out;
+    display: none;
 }
+
 button svg {
     transition: all .2s ease-in-out;
 }
 
 @media screen and (width > 1600px) {
     aside {
-        height: 100vh;
+        height: 100%;
     }
 }
 
@@ -148,6 +153,7 @@ button svg {
         top: 0;
         transition: .2s ease-in-out;
     }
+
     aside .copy {
         display: none;
     }
@@ -163,6 +169,7 @@ button svg {
         opacity: 0;
         transition: .2s ease-in-out;
     }
+
     .nav-container.active {
         left: 0;
         opacity: 1;
@@ -176,7 +183,12 @@ button svg {
         width: 50%;
         height: 100%;
     }
+
     .external {
         display: none;
+    }
+
+    button {
+        display: flex;
     }
 }

@@ -97,7 +97,7 @@ export default function Aside() {
                         </ul>
                     </div>
                 </nav>
-                <a href="/" className='external'>Comprar Diseño</a>
+                {/* <a href="/" className='external'>Comprar Diseño</a> */}
             </div>
             <span className='copy'>Renato Dev © 2024 | Todos los derechos reserevados</span>
             <button onClick={() => setMenuActive(!menuActive)}>
