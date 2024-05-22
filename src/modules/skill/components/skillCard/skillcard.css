@@ -17,7 +17,7 @@
 .card.active {
     overflow: hidden;
     transition: all .2s ease-in-out;
-    height: 299px; 
+    height: 299px;
 }
 
 .card-header {
@@ -73,8 +73,16 @@ a {
     font-size: 16px;
     font-weight: 500;
 }
+
 .card a {
     font-size: 14px;
     font-weight: 600;
     color: var(--primary-color);
+}
+
+@media screen and (width < 760px) {
+    .card {
+        padding: 16px 16px;
+        gap: 24px;
+    }
 }

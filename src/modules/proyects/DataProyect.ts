@@ -18,10 +18,10 @@ export const DataProyect: DataProyectProps[] = [
     {
         id: 1,
         img: Univerzz,
-        title: 'Aplicación Web para Agencias',
-        description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
+        title: 'Maquetación Web de Universidad',
+        description: 'Maquetación de Landing Page con temática de una Universidad con sus diferentes secciones.',
         subtitle: 'Tecnologias usadas',
-        label: ['HTML', 'CSS', 'Javascript', 'React'],
+        label: ['HTML', 'CSS', 'Javascript', 'Astro'],
         subtitlelink: 'Ver Proyecto',
         link: 'https://univerzz.netlify.app',
 
@@ -29,10 +29,10 @@ export const DataProyect: DataProyectProps[] = [
     {
         id: 1,
         img: VivoWeb,
-        title: 'Aplicación Web para Agencias',
-        description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
+        title: 'Vivo Web Ecommerce',
+        description: 'Maquetación de una Web tipo Ecommerce para venta de prendas de vestir.',
         subtitle: 'Tecnologias usadas',
-        label: ['HTML', 'CSS', 'Javascript', 'React'],
+        label: ['HTML', 'CSS', 'Javascript', 'Astro'],
         subtitlelink: 'Ver Proyecto',
         link: 'https://vivoweb.vercel.app',
 
@@ -40,10 +40,10 @@ export const DataProyect: DataProyectProps[] = [
     {
         id: 1,
         img: Horizone,
-        title: 'Aplicación Web para Agencias',
-        description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
+        title: 'Horizone Página web en WordPress',
+        description: 'Desarrollo de una web sencilla para un salon de Belleza con sus principales secciones usando WordPress.',
         subtitle: 'Tecnologias usadas',
-        label: ['HTML', 'CSS', 'Javascript', 'React'],
+        label: ['WorPress'],
         subtitlelink: 'Ver Proyecto',
         link: 'http://horizone.kesug.com/',
 

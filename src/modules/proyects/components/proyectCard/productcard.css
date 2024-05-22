@@ -1,5 +1,6 @@
 .product-card {
     background: #1D1F22;
+
     max-width: 501px;
     padding: 36px 38px;
     border-radius: 20px;
@@ -39,4 +40,16 @@
     background: #391F52;
     padding: 5px 10px;
     border-radius: 6px;
+}
+
+
+@media screen and (width < 760px) {
+    .product-card {
+        width: 100%;
+        padding: 18px 16px;
+    }
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+    }
 }
