@@ -3,12 +3,15 @@ aside {
     width: 100%;
     background: #1D1F22;
     max-width: 256px;
-    height: 100%;
+    height: 100vh;
     border-right: 1px solid #3B3E45;
-    padding: 40px 24px;
+    padding: 40px 24px 24px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 aside::-webkit-scrollbar {
@@ -37,7 +40,7 @@ aside::-webkit-scrollbar {
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 32px;
 }
 
@@ -46,8 +49,6 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    position: sticky;
-    top: 0;
 }
 
 nav ul {
@@ -58,9 +59,9 @@ nav ul {
 }
 
 nav ul li a {
-    /* font-size: 14px; */
-    font-weight: 500;
-    color: #595C62;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5f6268;
     padding: 8px 12px;
     border-radius: 6px;
     transition: .2s ease-in-out;
@@ -69,10 +70,6 @@ nav ul li a {
     display: flex;
     align-items: center;
     gap: 8px;
-
-    & span {
-        font-size: 14px;
-    }
 
 }
 
@@ -116,7 +113,7 @@ a.active {
 
 }
 .copy {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
 button {

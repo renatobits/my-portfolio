@@ -27,7 +27,7 @@ export default function Aside() {
                         <li>
                             <NavLink to='/' >
                                 <IconHome />
-                                <span>Home</span>
+                                Home
                             </NavLink>
                         </li>
                         <li>
@@ -42,12 +42,12 @@ export default function Aside() {
                                 <span>Skills</span>
                             </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/works">
                                 <IconWork />
                                 <span>Works</span>
                             </NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/about">
                                 <IconAbout />
@@ -62,44 +62,44 @@ export default function Aside() {
                         </li>
                     </ul>
                     <div className="social">
-                        <p>FOLLOW</p>
+                        <p>VISITA</p>
                         <ul>
                             <li>
-                                <a href="" className='link-social'>
+                                <a href="#" className='link-social'>
                                     <IocnTwitter />
                                     <span>Twitter</span>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="" className='link-social'>
                                     <IconInstagram />
                                     <span>Instagram</span>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a href="" className='link-social'>
+                                <a href="https://www.linkedin.com/in/a-renato-devv/" className='link-social' target='_blank'>
                                     <IconLinkedin />
                                     <span>LinkedIn</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" className='link-social'>
+                                <a href="https://github.com/renatobits" className='link-social' target='_blank'>
                                     <IconGithub />
                                     <span>GitHub</span>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="" className='link-social'>
                                     <IconTiktok />
                                     <span>Tik Tok</span>
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </nav>
                 {/* <a href="/" className='external'>Comprar Diseño</a> */}
+                <span className='copy'>Renato Dev © 2024 | Todos los derechos reserevados</span>
             </div>
-            <span className='copy'>Renato Dev © 2024 | Todos los derechos reserevados</span>
             <button onClick={() => setMenuActive(!menuActive)}>
                 {menuActive ? <IconClose /> : <IoconMenu />}
             </button>

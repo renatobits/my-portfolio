@@ -1,0 +1,27 @@
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #595C62;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: .2s ease-in-out;
+    background: transparent;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.nav-link:hover {
+    color: var(--title-color);
+    background: var(--bg-nav-active);
+    border: 1px solid #3B3E45;
+}
+
+.nav-link.actve {
+    background: var(--bg-nav-active);
+    color: var(--title-color);
+    border: 1px solid #3B3E45;
+
+}

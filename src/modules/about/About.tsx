@@ -24,13 +24,14 @@ export default function About() {
                         </div>
                         <ButtonPrimaryExternal href='https://wa.me/51 958711207' text='Enviar Mensaje' />
                     </div>
-                    <p>En esta parte se  muestran algunos trabajos en general desde diseño simples hasta proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto.</p>
-                    <p>En esta parte se  muestran algunos trabajos en general desde diseño simples hasta proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto. proyectos de maquetado pequeños isn mucha importancia para considerarse como un proyecto.</p>
+                    <p>Soy Renato Ingeniero de Software, un profesional apasiodo por el Desarrollo web especialmente en el Front-end.</p>
+                    <p>Me considero una persona responsable y creativa, Disfruto de la creación de interfaces de usuario altamente atractivas y modernas asegurando la mejor experiencia de navegación de los usuarios.</p>
+                    <p>Tambien mis conocimientos me permiten hacer desarrollo Back-end para crear proyectos completos. Me gusta asumir retos
+                        desafiantes asi mismo aportar en el trabajo en equipo</p>
                 </div>
             </section>
             <section className='about-contact'>
                 <h2>Información de contacto</h2>
-                <a href="mailto:elcorreoquequieres@correo.com">Enviar Email</a>
                 <div className="contact-info">
                     <ContactCard title='apazaarenato@gmail.com' label='Emial' href='mailto:apazaarenato@gmail.com'>
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
