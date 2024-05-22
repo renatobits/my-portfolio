@@ -22,7 +22,7 @@ export default function About() {
                                 <span>Diseñador UX/UI</span>
                             </div>
                         </div>
-                        <ButtonPrimaryExternal href='https://wa.me/51 958711207' text='Enviar Mensaje' />
+                        <ButtonPrimaryExternal href='https://wa.me/958711207?text=Hola soy' text='Enviar Mensaje' />
                     </div>
                     <p>Soy Renato Ingeniero de Software, un profesional apasiodo por el Desarrollo web especialmente en el Front-end.</p>
                     <p>Me considero una persona responsable y creativa, Disfruto de la creación de interfaces de usuario altamente atractivas y modernas asegurando la mejor experiencia de navegación de los usuarios.</p>

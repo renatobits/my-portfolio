@@ -8,7 +8,7 @@ interface SocialCardProps {
 }
 export default function SocialCard ({children, href}: SocialCardProps) {
     return (
-        <a href={href} className='social-link'>
+        <a href={href} className='social-link' target='_blank'>
             {children}
         </a>
     )
