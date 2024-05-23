@@ -26,8 +26,9 @@ export default function About() {
                     </div>
                     <p>Soy Renato Ingeniero de Software, un profesional apasiodo por el Desarrollo web especialmente en el Front-end.</p>
                     <p>Me considero una persona responsable y creativa, Disfruto de la creación de interfaces de usuario altamente atractivas y modernas asegurando la mejor experiencia de navegación de los usuarios.</p>
-                    <p>Tambien mis conocimientos me permiten hacer desarrollo Back-end para crear proyectos completos. Me gusta asumir retos
+                    <p>Tambien mis conocimientos me permiten hacer desarrollo Back-end para crear proyectos completos y eficientes. Me gusta asumir retos
                         desafiantes asi mismo aportar en el trabajo en equipo</p>
+                    <p>Como principal objetivo a mediano y largo plazo es convertirme en un experto Desarrollador FullStack para contribuir a la creación de soluciones innovadoras y eficientes en la industria.</p>
                 </div>
             </section>
             <section className='about-contact'>

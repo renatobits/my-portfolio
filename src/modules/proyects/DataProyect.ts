@@ -56,7 +56,7 @@ export const DataProyect: DataProyectProps[] = [
         subtitle: 'Tecnologias usadas',
         label: ['HTML', 'CSS', 'Javascript', 'React'],
         subtitlelink: 'Ver Proyecto',
-        link: 'https://renatodevs.vercel.app',
+        link: '#',
 
     },
 ];
