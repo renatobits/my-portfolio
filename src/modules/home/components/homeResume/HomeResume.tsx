@@ -1,5 +1,5 @@
 import './homeresume.css'
-import RenatoDevCv from '../../../../assets/pdf/RenatoDev-cv.pdf';
+import RenatoDevCv from '../../../../assets/pdf/Renatodev-cv.pdf';
 
 
 export default function HomeResume() {
