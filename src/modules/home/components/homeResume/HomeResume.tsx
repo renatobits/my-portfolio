@@ -22,7 +22,6 @@ export default function HomeResume() {
                     <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.25 9.5L9 13.25M9 13.25L12.75 9.5M9 13.25V3.5M4.5 15.5H13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-
                 </a>
             </div>
         </section>
