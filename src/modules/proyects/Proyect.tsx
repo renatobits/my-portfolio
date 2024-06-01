@@ -26,7 +26,10 @@ export default function Proyect() {
                             description={proyect.description}
                             subtitle={proyect.subtitle}
                             subtitlelink={proyect.subtitlelink}
-                            link={proyect.link}>
+                            link={proyect.link}
+                            text={proyect.text}
+                            >
+                            
                             {
                                 proyect.label.map((labels, index) => (
                                     <Badge

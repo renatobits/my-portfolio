@@ -9,6 +9,7 @@
     align-items: start;
     gap: 10px;
     border: 1px solid #2C2D34;
+    overflow-x: hidden;
 }
 
 .product-card img {

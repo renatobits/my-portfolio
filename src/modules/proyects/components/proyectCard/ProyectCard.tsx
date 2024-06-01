@@ -10,9 +10,10 @@ interface ProyectCardProps {
     children: ReactNode;
     subtitlelink: string;
     link: string;
+    text?: string;
 }
 
-export default function ProyectCard({ src, title, description, subtitle, children, subtitlelink, link }: ProyectCardProps) {
+export default function ProyectCard({ src, title, description, subtitle, children, subtitlelink, link, text }: ProyectCardProps) {
     return (
         <article className="product-card">
             <img src={src} alt={title} />
@@ -23,7 +24,7 @@ export default function ProyectCard({ src, title, description, subtitle, childre
                 {children}
             </ul>
             <h3>{subtitlelink}</h3>
-            <ExternalLink link={link} />
+            <ExternalLink link={text || link} />
         </article>
     )
 }

@@ -2,6 +2,7 @@ import ImageP from '../../assets/work.png'
 import Univerzz from '../../assets/univerzz.webp'
 import VivoWeb from '../../assets/vivowebs.webp'
 import Horizone from '../../assets/horizone.webp'
+import AgencyRC from '../../assets/Agency-code.webp'
 
 
 interface DataProyectProps {
@@ -13,6 +14,7 @@ interface DataProyectProps {
     label: string[];
     subtitlelink: string;
     link: string;
+    text?: string;
 }
 export const DataProyect: DataProyectProps[] = [
     {
@@ -50,13 +52,13 @@ export const DataProyect: DataProyectProps[] = [
     },
     {
         id: 1,
-        img: ImageP,
-        title: 'Aplicación Web para Agencias',
-        description: 'Desarrollo de Aplicación para la Agencia SquareUp. Una aplicación web que consume informacion desde una base d datos',
+        img: AgencyRC,
+        title: 'Diseño de Landing para Agencia de Marketing',
+        description: 'Diseño de una Landing Page para una agencia de marketing digital realizado en Figma',
         subtitle: 'Tecnologias usadas',
-        label: ['HTML', 'CSS', 'Javascript', 'React'],
+        label: ['Figma'],
         subtitlelink: 'Ver Proyecto',
-        link: '#',
-
+        link: 'https://www.figma.com/design/3RH5EpoWOnWFLKjsDrlLWy/Dise%C3%B1o-Web-de-Agencia-de-Marketing%2FDark-(Community)?node-id=0-1&t=qf3LnlSh0KmzYVkJ-0',
+        text: 'https://figma.com/web-agencia-de-M-Dark',
     },
 ];
