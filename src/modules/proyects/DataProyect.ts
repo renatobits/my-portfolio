@@ -1,8 +1,8 @@
-import ImageP from '../../assets/work.png'
 import Univerzz from '../../assets/univerzz.webp'
 import VivoWeb from '../../assets/vivowebs.webp'
 import Horizone from '../../assets/horizone.webp'
 import AgencyRC from '../../assets/Agency-code.webp'
+import Houris from '../../assets/Houris.webp'
 
 
 interface DataProyectProps {
@@ -43,7 +43,7 @@ export const DataProyect: DataProyectProps[] = [
         id: 1,
         img: Horizone,
         title: 'Horizone Página web en WordPress',
-        description: 'Desarrollo de una web sencilla para un salon de Belleza con sus principales secciones usando WordPress.',
+        description: 'Desarrollo de una web sencilla para un salón de Belleza con sus principales secciones usando WordPress.',
         subtitle: 'Tecnologias usadas',
         label: ['WorPress'],
         subtitlelink: 'Ver Proyecto',
@@ -54,11 +54,22 @@ export const DataProyect: DataProyectProps[] = [
         id: 1,
         img: AgencyRC,
         title: 'Diseño de Landing para Agencia de Marketing',
-        description: 'Diseño de una Landing Page para una agencia de marketing digital realizado en Figma',
+        description: 'Diseño de una Landing Page para una agencia de marketing digital diseñado en Figma',
         subtitle: 'Tecnologias usadas',
         label: ['Figma'],
         subtitlelink: 'Ver Proyecto',
         link: 'https://www.figma.com/design/3RH5EpoWOnWFLKjsDrlLWy/Dise%C3%B1o-Web-de-Agencia-de-Marketing%2FDark-(Community)?node-id=0-1&t=qf3LnlSh0KmzYVkJ-0',
         text: 'https://figma.com/web-agencia-de-M-Dark',
+    },
+    {
+        id: 1,
+        img: Houris,
+        title: 'Diseño de Landing para Empresa Hotelera',
+        description: 'Diseño de una Landing Page para una empresa Hotelera diseñada con elegancia y creatividad en Figma',
+        subtitle: 'Tecnologias usadas',
+        label: ['Figma'],
+        subtitlelink: 'Ver Proyecto',
+        link: '',
+        text: 'Link no disponible',
     },
 ];
