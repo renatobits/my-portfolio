@@ -129,15 +129,15 @@ export const skillDataTools = [
     {
         id: 15,
         icon: IconGit,
-        title: 'Figma',
-        subtitle: 'Interactividad y Dinamismo',
+        title: 'Git',
+        subtitle: 'Control de Versiones',
         description: 'Utilizo Git para gestionar el control de versiones en mis proyectos, facilitando la colaboración con otros desarrolladores y asegurando un historial claro y organizado de cambios.',
     },
     {
         id: 16,
         icon: IconAzure,
-        title: 'Figma',
-        subtitle: 'Interactividad y Dinamismo',
+        title: 'Azure',
+        subtitle: 'Despliegue y servicios Cloud',
         description: 'Conosco el entorno de Azure y algunos de sus productos para el despliegue de software, creación de maquinas virtuales, gestion de base de datos, despliegue de servicios API, etc.',
     },
 ];
