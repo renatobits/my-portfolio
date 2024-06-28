@@ -10,7 +10,7 @@ export default function Layout() {
                 <header>
                     <span>Versión 1.2</span>
                 </header>
-                <div className="container">
+                <div className="app">
                     <Outlet />
                     <footer>
                         <span>© 2024 Renato Dev | Todos los derechos reservados </span><a href="">Consulte términos y condiciones de copyright </a>

@@ -1,8 +1,24 @@
 .profile {
+    position: relative;
     display: flex;
     align-items: start;
     gap: 8px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2px;
 }
+
+.profile .active-status {
+    --size: 8px;
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    background: #0f1;
+    border-radius: 50%;
+    left: 33px;
+    bottom: 8px;
+    border: 1px solid #000;
+}
+
 .profile-img {
     --size: 40px;
     width: var(--size);
@@ -10,11 +26,13 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
 .profile-names h2 {
     font-size: 14px;
     color: var(--title-color);
     font-weight: 500;
 }
+
 .profile-names p {
     font-size: 14px;
     font-weight: 500;
@@ -22,5 +40,8 @@
 }
 
 @media screen and (width < 760px) {
-
+    .profile {
+        border: none;
+        padding-bottom: 0;
+    }
 }

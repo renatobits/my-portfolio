@@ -13,11 +13,11 @@ export default function Home() {
             <section className='home'>
                 <div className="home-header">
                     <h1>Hey, Soy Renato</h1>
-                    <h2>Desarrollador Web</h2>
-                    <p>Soy un profesional apasionado por el Desarrollo Web especialmente en el Frontend especializado en crear interfaces de usuario altamente atractivas y modernas asegurando la mejor experiencia de navegación. También desarrollo Backend para crear Proyectos completos.</p>
+                    <h2>Desarrollador Web & Diseñar ui</h2>
+                    <p>Ing. de Software Junior experimentado en desarrollo web frontend, asi mismo con sólidos conocimientos en desarrollo backend para crear proyectos completos. Destacado por crear experiencias de usuario intuitivas y atractivas.</p>
                 </div>
                 <div className="home-buttons">
-                    <ButtonPrimaryExternal href='https://wa.me/958711207?text=hola soy' text='Contactar' />
+                    <ButtonPrimaryExternal href='https://wa.me/958711207?text=Hola soy' text='Contactar' />
                     <ButtonSecondary to='/proyects' text='Ver Proyectos' />
                 </div>
             </section>

@@ -31,9 +31,10 @@ header span {
     color: #4191F9;
 }
 
-.container {
+.app {
     max-width: 1080px;
     width: 100%;
+    /* border: 1px solid var(--border-color); */
 }
 
 footer {

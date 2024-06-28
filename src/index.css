@@ -9,7 +9,7 @@
 :root {
   --primary-color: #0070F7;
   --secondary-color: #791FC1;
-  --title-color: #F0F1F4;
+  --title-color: #ECECEE;
   --text-color: #777C89;
   --bg-nav-active: #29292C;
   --border-nav-active: #3B3E45;
@@ -23,18 +23,22 @@
 }
 
 
-html {
+/* html {
   scroll-behavior: smooth;
+  cursor: url('/public/miu.png'), auto;
 }
+ */
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: var(--text-color);
-  line-height: 150%;
 }
 
+p {
+  line-height: 150%;
+}
 /* Customizes the whole scrollbar */
 ::-webkit-scrollbar {
   width: 10px;

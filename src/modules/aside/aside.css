@@ -8,7 +8,7 @@ aside {
     padding: 24px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
     position: fixed;
     top: 0;
     left: 0;
@@ -61,12 +61,11 @@ nav ul {
 nav ul li a {
     font-size: 14px;
     font-weight: 500;
-    color: #5f6268;
+    color: #818089;
     padding: 6px 12px;
     border-radius: 8px;
     transition: .2s ease-in-out;
     background: transparent;
-    border: 1px solid transparent;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -110,10 +109,12 @@ a.active {
     text-align: center;
 
 }
+
 .copy {
     font-size: 12px;
     text-align: center;
 }
+
 button {
     background: #272A2F;
     border: none;
