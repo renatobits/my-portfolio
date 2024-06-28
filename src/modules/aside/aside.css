@@ -1,7 +1,7 @@
 aside {
-    position: relative;
+    background: transparent;
+    position: fixed;
     width: 100%;
-    background: #1D1F22;
     max-width: 256px;
     height: 100vh;
     border-right: 1px solid #3B3E45;
@@ -60,7 +60,7 @@ nav ul {
 
 nav ul li a {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #5f6268;
     padding: 8px 12px;
     border-radius: 6px;

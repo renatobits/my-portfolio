@@ -7,10 +7,17 @@ export default function Layout() {
         <div className="layout">
             <Aside />
             <main className="principal">
-                <Outlet />
-                <footer>
-                    <span>© 2024 Renato Dev | Todos los derechos reservados </span><a href="">Consulte términos y condiciones de copyright </a>
-                </footer>
+                <header>
+                    <span>Versión 1.0</span>
+                </header>
+                <div className="container">
+                    <Outlet />
+                    <footer>
+                        <span>© 2024 Renato Dev | Todos los derechos reservados </span><a href="">Consulte términos y condiciones de copyright </a>
+                    </footer>
+                </div>
+
+
             </main>
         </div>
     )
