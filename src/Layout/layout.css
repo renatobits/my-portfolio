@@ -1,7 +1,6 @@
 .layout {
     width: 100%;
     display: flex;
-    /* background: #09f; */
     justify-content: center;
     align-items: center;
 }
@@ -11,15 +10,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: #022944; */
     width: 100%;
     margin-left: 256px;
-    /* antes 983px */
-    /* padding: 120px 40px 20px 100px; */
-    overflow: auto;
 }
 
 header {
+    background: #161618;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 70px;
     border-bottom: 1px solid #242426;
@@ -27,14 +25,17 @@ header {
     justify-content: center;
     align-items: center;
 }
- 
+
 header span {
+    font-size: 12px;
     color: #4191F9;
 }
+
 .container {
     max-width: 1080px;
     width: 100%;
 }
+
 footer {
     display: flex;
     flex-direction: column;
@@ -54,13 +55,14 @@ footer a {
 
 @media screen and (width < 760px) {
     .layout {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .principal {
-        width: 100%;
-        min-width: auto;
+        margin-left: 0;
         padding: 0 16px;
-        margin: 0;
+    }
+    header {
+        display: none;
     }
 }

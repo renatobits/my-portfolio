@@ -8,7 +8,7 @@ export default function Layout() {
             <Aside />
             <main className="principal">
                 <header>
-                    <span>Versión 1.0</span>
+                    <span>Versión 1.2</span>
                 </header>
                 <div className="container">
                     <Outlet />

@@ -5,18 +5,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary-color: #0070F7;
   --secondary-color: #791FC1;
   --title-color: #F0F1F4;
   --text-color: #777C89;
-  --bg-nav-active: #272A2F;
+  --bg-nav-active: #29292C;
   --border-nav-active: #3B3E45;
   --nav-inactive-text: #595C62;
+  --border-color: #242426;
 
   color-scheme: light dark;
   color: var(--text-color);
-  background-color: #181A1D;
+  background-color: #161618;
 
 }
 
@@ -33,6 +35,30 @@ body {
   line-height: 150%;
 }
 
+/* Customizes the whole scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  /* Width of the scrollbar */
+}
+
+/* Customizes the track of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #161618;
+  /* Color of the track */
+}
+
+/* Customizes the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #33323E;
+  border-radius: 8px;
+  /* Color of the thumb */
+}
+
+/* Changes the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b3a43;
+  /* Darker color on hover */
+}
 
 /* Reusabel CSS Class */
 h1,
