@@ -14,7 +14,7 @@ export default function Home() {
                 <div className="home-header">
                     <h1>Hey, Soy Renato</h1>
                     <h2>Desarrollador Web & Diseñar ui</h2>
-                    <p>Ing. de Software Junior experimentado en desarrollo web frontend, asi mismo con sólidos conocimientos en desarrollo backend para crear proyectos completos. Destacado por crear experiencias de usuario intuitivas y atractivas.</p>
+                    <p>Estudie Ing. de Software, actualmente especializado en desarrollo web frontend, asi mismo con sólidos conocimientos en backend para proyectos completos. Me destaco en crear experiencias de usuario intuitivas y atractivas.</p>
                 </div>
                 <div className="home-buttons">
                     <ButtonPrimaryExternal href='https://wa.me/958711207?text=Hola soy' text='Contactar' />

@@ -1,5 +1,5 @@
 import './homeresume.css'
-import RenatoDevCv from '../../../../assets/pdf/RenatoDevCv.pdf';
+import RenatoDevCv from '../../../../assets/pdf/Renato_dev_cv.pdf';
 
 
 export default function HomeResume() {
@@ -15,7 +15,7 @@ export default function HomeResume() {
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none"><path fill="#F0F1F4" d="M14 2.75a.25.25 0 0 1 .25.25v5.647c0 .414.336.75.75.75h4.5a.25.25 0 0 1 .25.25V19.5A2.75 2.75 0 0 1 17 22.25H7a2.75 2.75 0 0 1-2.75-2.75v-14A2.75 2.75 0 0 1 7 2.75h7Z" /><path fill="#F0F1F4" d="M16.086 3.138c-.143-.115-.336.002-.336.186v4.323c0 .138.112.25.25.25h3.298c.118 0 .192-.124.124-.22L16.408 3.48a1.75 1.75 0 0 0-.322-.342Z" /></svg>
 
                     </div>
-                    <p>RenatoDev.pdf</p>
+                    <p>Renato_dev_cv.pdf</p>
                 </div>
                 <a href={RenatoDevCv} download={true} className='dowload-cv'>
                     Descargar

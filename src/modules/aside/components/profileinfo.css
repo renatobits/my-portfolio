@@ -8,7 +8,7 @@
 }
 
 .profile .active-status {
-    --size: 8px;
+    --size: 10px;
     position: absolute;
     width: var(--size);
     height: var(--size);
