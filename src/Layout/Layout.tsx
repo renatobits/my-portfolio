@@ -13,11 +13,9 @@ export default function Layout() {
                 <div className="app">
                     <Outlet />
                     <footer>
-                        <span>© 2024 Renato Dev | Todos los derechos reservados </span><a href="">Consulte términos y condiciones de copyright </a>
+                        <span>Renato Dev ❤️ © 2024 | Todos los derechos reservados </span><a href="">Consulte términos y condiciones de copyright </a>
                     </footer>
                 </div>
-
-
             </main>
         </div>
     )

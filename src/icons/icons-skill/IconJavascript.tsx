@@ -1,6 +1,6 @@
 export default function IconJavascript() {
     return (
-        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="32" height="32" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_261_845)">
                 <mask id="mask0_261_845"  maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
                     <path d="M0 0H50V50H0V0Z" fill="white" />

@@ -1,6 +1,6 @@
 export default function IconReact() {
     return (
-        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="32" height="32" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16.6665 25C16.6665 13.4938 20.3957 4.16669 24.9998 4.16669C29.604 4.16669 33.3332 13.4938 33.3332 25C33.3332 36.5063 29.604 45.8334 24.9998 45.8334C20.3957 45.8334 16.6665 36.5063 16.6665 25Z" stroke="#059DF3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M20.7811 17.9583C30.8686 12.2042 40.9353 10.7708 43.2645 14.7563C45.5936 18.7417 39.3061 26.6375 29.2186 32.3896C19.1311 38.1417 9.06447 39.5771 6.73531 35.5896C4.40614 31.6042 10.6936 23.7125 20.7811 17.9583Z" stroke="#059DF3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M29.2186 17.9583C39.3061 23.7083 45.5936 31.6042 43.2645 35.5896C40.9353 39.5771 30.8686 38.1438 20.7811 32.3896C10.6936 26.6354 4.40614 18.7438 6.73531 14.7563C9.06239 10.7708 19.1311 12.2042 29.2186 17.9583Z" stroke="#059DF3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />

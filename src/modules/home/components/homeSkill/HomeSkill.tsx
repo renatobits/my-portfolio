@@ -20,43 +20,43 @@ const DATA_SKILL: HomeSkillProps[] = [
         id: 1,
         icon: <IconHtml />,
         title: 'HTML',
-        description: 'Para la maquetación de todas las interfaces.',
+        description: 'Maquetación semántica',
     },
     {
         id: 2,
         icon: <IconCss />,
         title: 'CSS',
-        description: 'Para dar vida y estilo a mis interfaces.',
+        description: 'Estilos',
     },
     {
         id: 3,
         icon: <IconJavascript />,
         title: 'Javascript',
-        description: 'Para la interactividad y animaciónes avanzadas.',
+        description: 'Interactividad y animaciones',
     },
     {
         id: 4,
         icon: <IconFigma />,
         title: 'Figma',
-        description: 'Para diseño de interfaces y prototipado.',
+        description: 'Diseño ux/ui y prototipado.',
     },
     {
         id: 5,
         icon: <IconReact />,
         title: 'React',
-        description: 'Para construir interfaces modernas e interactivas.',
+        description: 'Desarrollo de UI Modernas',
     },
     {
         id: 6,
         icon: <IconLaravel />,
         title: 'Laravel',
-        description: 'Para el desarrollo del backend  de mis proyectos.',
+        description: 'Desarrollo Backend y Api',
     },
     {
         id: 7,
         icon: <IconWordpress />,
         title: 'WordPress',
-        description: 'Para realizar proyectos pequeños menos personalizados.',
+        description: 'Desarrollo Web',
     }
 ]
 export default function HomeSkill() {
@@ -64,7 +64,7 @@ export default function HomeSkill() {
         <section className='home-skill'>
             <div className="skill-header">
                 <h2>Tecnologias</h2>
-                <ButtonMoreInfo to='/skill' text='Ver más' />
+                <ButtonMoreInfo to='/skills' text='Ver más' />
             </div>
             <div className="home-skill-container">
                 {
@@ -77,7 +77,7 @@ export default function HomeSkill() {
                                 <div className="skill-card-name">
                                     <h3>{datas.title}</h3>
                                     <p>{datas.description}</p>
-                                </div>
+                                </div> 
                             </div>
                         )
                     })

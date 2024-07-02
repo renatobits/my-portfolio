@@ -20,38 +20,47 @@
 .home-skill-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 32px;
+    justify-content: start;
+    gap: 8px;
 }
 
 .home-skill-card {
-    background: #1D1F22;
-    max-width: 376px;
-    padding: 16px;
+    max-width: 352px;
+    width: 100%;
+    padding: 12px;
     display: flex;
     align-items: center;
     gap: 16px;
-    border-radius: 20px;
-    border: 1px solid #2C2D34;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
 }
-
+.home-skill-card:hover {
+    background: #1C1C1F;
+    border: 1px solid #242426;
+}
 .skill-card-icon {
-    border-radius: 15px;
-    padding: 10px;
-    border: 1px solid #2C2D34;
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 6px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #242426;
 }
 
 .skill-card-name {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 2px;
 }
 
 .skill-card-name h3 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
+
 
 @media screen and (width < 760px) {
     .home-skill-container{

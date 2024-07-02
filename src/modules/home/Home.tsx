@@ -29,6 +29,18 @@ export default function Home() {
                     <h2>Educación</h2>
                 </div>
                 <div className="education-container">
+                    {/* <div className="education-card">
+                        <div className="education_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" /></svg>
+                        </div>
+
+                        <div className="education_card_info">
+                            <h2>Senati</h2>
+                            <p>Carrera: <span>Ing. de Software</span></p>
+                            <span>02/10/2024 - 02/02/2024</span>
+                        </div>
+                    </div>
+                    <hr /> */}
                     <div className="education-card">
                         <div className="education-card-logo">
                             <svg width="50" height="50" viewBox="0 0 100 101"><path fill="#243CDE" d="M28.7 10.8c-2.1.3-3.2 1.3-4.9 4.5C21.2 20.6 10.3 39.7 8 43c-.9 1.4-2.2 3.9-2.9 5.7-1.2 3-1 3.6 3.9 11.7l5.2 8.6 24.5-.2 24.6-.3 2.9-5.2 2.9-5.1-3.1-5.6-3.2-5.6h-9.7c-9.7 0-12.5-.9-11.4-3.6.4-1.1 3.2-1.4 12.2-1.4 13.1 0 11.3-1 17.7 10.2l3.3 5.8-4.6 8-4.5 8H41.9c-18.8 0-23.9.3-23.9 1.3 0 .7 2.1 4.7 4.6 9l4.6 7.7 23.1-.2 23.1-.3L84.7 72c6.1-10.7 11.2-20.2 11.2-21 .1-.9-1-3.2-2.4-5.2s-2.5-4-2.5-4.3c0-.3-1.2-2.3-2.6-4.5l-2.7-4H37.2l-3.1 5.5L31 44l3.1 5.5 3.1 5.4 10.1.3c9.7.3 10.2.4 10.5 2.5.3 2.3.2 2.3-11.5 2.3H34.4l-3.2-5.3C29.4 51.8 28 49 28 48.5c0-.4-.7-1.6-1.5-2.4-1.2-1.5-.9-2.6 3.2-9.9l4.7-8.2h23.8c18.4 0 23.8-.3 23.8-1.3-.1-.6-1.4-3.5-3-6.2-1.6-2.8-3.5-6-4.1-7.3-.7-1.2-1.7-2.2-2.3-2.2-9.4-.3-41.8-.4-43.9-.2z" /></svg>
@@ -36,7 +48,7 @@ export default function Home() {
                         <div className="education-card-info">
                             <h3>Senati</h3>
                             <p>Ingenieria de Software con IA</p>
-                            <span>2021 - Enero 2024, Arequipa - Peru</span>
+                            <span>01/04/2021 - 23/01/2024, Arequipa - Peru</span>
                         </div>
                     </div>
                     <hr />
@@ -48,7 +60,7 @@ export default function Home() {
                         <div className="education-card-info">
                             <h3>FreeCodeCamp</h3>
                             <p>Desarrollo Web</p>
-                            <span>2022 - Actual 2024, Online</span>
+                            <span>04/01/2022 - Actual</span>
                         </div>
                     </div>
 

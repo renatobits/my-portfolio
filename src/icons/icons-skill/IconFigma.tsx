@@ -1,6 +1,6 @@
 export default function IconFigma() {
     return (
-        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="32" height="32" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_261_1828)">
                 <path d="M17.7734 50.3906C22.4219 50.3906 26.1719 46.6406 26.1719 41.9922V33.5938H17.7734C13.125 33.5938 9.375 37.3438 9.375 41.9922C9.375 46.6406 13.125 50.3906 17.7734 50.3906Z" fill="#0ACF83" />
                 <path d="M9.375 25.1953C9.375 20.5469 13.125 16.7969 17.7734 16.7969H26.1719V33.5938H17.7734C13.125 33.5938 9.375 29.8438 9.375 25.1953Z" fill="#A259FF" />

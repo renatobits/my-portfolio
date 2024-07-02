@@ -12,6 +12,7 @@
     align-items: center;
     width: 100%;
     margin-left: 256px;
+    margin-bottom: 16px;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 header span {
@@ -34,9 +36,21 @@ header span {
 .app {
     max-width: 1080px;
     width: 100%;
+    position: relative;
     /* border: 1px solid var(--border-color); */
 }
-
+.app::before {
+    content: '';
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    top: 0;
+    right: -100px;
+    filter: blur(180px);
+    z-index: 20;
+}
 footer {
     display: flex;
     flex-direction: column;
